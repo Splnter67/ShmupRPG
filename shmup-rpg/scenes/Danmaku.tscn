@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://bkskhso86juv7"]
+
+[ext_resource type="PackedScene" uid="uid://cvg0x0k635nxj" path="res://scenes/DanmakuProtag.tscn" id="1_gysyt"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="BulletFactory2D" type="BulletFactory2D" parent="."]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(576, 324)
+
+[node name="Protag" parent="." instance=ExtResource("1_gysyt")]
+position = Vector2(577, 553)
